@@ -18,12 +18,19 @@
 @media only screen and (max-width: 960px) {
   // mobile menu shows here.
   #header {
+    #header-wrap {
+      .logo {
+        float: none;
+      }
+    }
     #header-controls-right {
       .mobile-nav-controller {
         padding-top: 15px; // vertically center hamberger
       }
     }
   }
+
+
 
 }
 @media only screen and (max-width: 767px) { // mobile - mobile menu shows here.

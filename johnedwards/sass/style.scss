@@ -18,7 +18,11 @@ Version: 1.2
 
 }
 /*  header stuff - here */
-
+#header-controls-right {
+	.mobile-nav-controller-wrap {
+		display: none; // dont have a menu right now.
+	}
+}
 /*** styling of content */
 /*** styling of content */
 #content.right-sidebar-page {
@@ -38,7 +42,15 @@ Version: 1.2
     margin-bottom: 0px;
 	}
 }
-// footer
+// footers
+#bottom-widgets {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	a.tatsu-button {
+		color: white;
+		font-weight: bold;
+	}
+}
 #footer {
     a.reach-logo {
     	color: white;

@@ -130,6 +130,9 @@ input[type="submit"] {
 
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
+#header-controls-right .mobile-nav-controller-wrap {
+  display: none; }
+
 /*** styling of content */
 /*** styling of content */
 #content.right-sidebar-page {
@@ -144,6 +147,13 @@ input[type="submit"] {
   #reach-bottom-cta .widget {
     margin-bottom: 0px; }
 
+#bottom-widgets {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  #bottom-widgets a.tatsu-button {
+    color: white;
+    font-weight: bold; }
+
 #footer a.reach-logo {
   color: white; }
 #footer .reach-logo:before {
@@ -153,6 +163,8 @@ input[type="submit"] {
 /* *** keep this at the end *** */
 /* **** media **** */
 @media only screen and (max-width: 960px) {
+  #header #header-wrap .logo {
+    float: none; }
   #header #header-controls-right .mobile-nav-controller {
     padding-top: 15px; } }
 @media only screen and (max-width: 767px) {
