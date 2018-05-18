@@ -47,7 +47,14 @@
         margin-top: 0px;
         margin-bottom: 0px;
       }
+
+
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) { // mobile 480
+}
+@media only screen and (max-width: 479px) {
+  .tatsu-column.jem-col-pad-shrink .tatsu-column-pad{
+    padding: 5px!important;
+  }
 }
