@@ -25,6 +25,9 @@
     input.cf7-med {
       width: 200px;
     }
+    input.cf7-med-large {
+      width: 400px;
+    }
     input.cf7-small {
       width: 80px;
     }
@@ -56,6 +59,12 @@
     .one-half.last {
       margin-right: 0px!important;
       clear: right;
+    }
+    .g-recaptcha.wpcf7-recaptcha {
+      max-width: 100%;
+      iframe {
+        max-width: 100%;
+      }
     }
 }
 .wpcf7 .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
