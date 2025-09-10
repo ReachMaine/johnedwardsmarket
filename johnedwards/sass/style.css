@@ -85,78 +85,6 @@ input[type=submit] {
   cursor: pointer;
 }
 
-.wpcf7-form textarea {
-  height: 200px;
-}
-.wpcf7-form input[type=text],
-.wpcf7-form input[type=password],
-.wpcf7-form input[type=datetime],
-.wpcf7-form input[type=datetime-local],
-.wpcf7-form input[type=date],
-.wpcf7-form input[type=month],
-.wpcf7-form input[type=time],
-.wpcf7-form input[type=week],
-.wpcf7-form input[type=number],
-.wpcf7-form input[type=email],
-.wpcf7-form input[type=url],
-.wpcf7-form input[type=search],
-.wpcf7-form input[type=tel],
-.wpcf7-form input[type=color] {
-  max-width: 100%;
-}
-.wpcf7-form input[type=tel] {
-  width: 200px;
-}
-.wpcf7-form input.cf7-med {
-  width: 200px;
-}
-.wpcf7-form input.cf7-med-large {
-  width: 400px;
-}
-.wpcf7-form input.cf7-small {
-  width: 80px;
-}
-.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
-  padding: 18px;
-  border: 0px;
-  border: none;
-  border-radius: 3px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-.wpcf7-form label {
-  font-weight: bold;
-  font-size: 1.1em;
-}
-.wpcf7-form p {
-  margin-bottom: 5px;
-}
-.wpcf7-form label.cf7-required:after {
-  content: "*";
-  color: red;
-}
-.wpcf7-form .one-half {
-  position: relative;
-  margin-right: 4%;
-  float: left;
-}
-.wpcf7-form .one-half.last {
-  margin-right: 0px !important;
-  clear: right;
-}
-.wpcf7-form .g-recaptcha.wpcf7-recaptcha {
-  max-width: 100%;
-}
-.wpcf7-form .g-recaptcha.wpcf7-recaptcha iframe {
-  max-width: 100%;
-}
-
-.wpcf7 .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
-  color: #123b26;
-  background-color: #d1dcd7;
-  font-weight: bold;
-}
-
 /* gravity forms styling */
 /* $form-button-color: white;
 $form-button-bkg: #048785;
@@ -211,7 +139,7 @@ $form-button-border:  white;
 .gform_wrapper form.rmm-gf-tight .gform_fields {
   row-gap: 2px;
 }
-.gform_wrapper form.rmm-gf-tight .gform_fields #field_submit {
+.gform_wrapper form.rmm-gf-tight .gform_fields #field_submitX {
   height: -moz-fit-content;
   height: fit-content;
   padding-top: 7px;
