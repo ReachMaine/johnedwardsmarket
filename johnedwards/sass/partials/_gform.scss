@@ -1,0 +1,79 @@
+/* gravity forms styling */
+// form buttons (if different from $button colors
+/* $form-button-color: white;
+$form-button-bkg: #048785;
+$form-button-hover-bkg: #ed8457;
+$form-button-hover-color : white;
+$form-button-border:  white;
+*/ 
+
+.gform_wrapper {
+	.gform_fields  { // ul
+		.gfield {
+			input,
+			textarea {
+				//background-color: white;
+				//font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+				//border: 0px;
+
+			}
+			input:read-only {
+				background-color: transparent;
+			}
+			
+			
+		}
+		
+		
+	} // form fields
+
+
+	// submit buttons 
+	#field_submit,
+	.gform_footer,
+	.gform-page-footer { // & multi page form
+		display: flex;
+		flex-direction: row;
+		// all button styling
+		input[type=submit],
+		.gform_previous_button,
+		.gform_next_button {
+			color: $button-color!important;
+			border-width: 0px;
+			//border-radius: 26px;
+			padding: 18px 25px;
+			font-size: 14px!important;
+			font-weight: bold;
+			text-align: center;
+			cursor: pointer;
+			background-color: $button-bkg!important;
+			text-transform: uppercase;
+
+			letter-spacing: 1px;
+		}
+
+		input[type=submit]:hover,
+		.gform_next_button:hover {
+			background-color: $button-hover-bkg!important;
+		}
+	}
+	.gform_footer {
+		//justify-content: flex-end; // put button on right - now an option on the form.
+	} // gform footer
+
+	.gform-page-footer {
+		justify-content: space-between; // spread 'em out.
+	} // gform footer
+	
+
+} // gform wrapper
+
+
+// class for tighten up spacing between row.  new gf forms use row-gap.
+.gform_wrapper form.rmm-gf-tight .gform_fields {
+	row-gap: 2px;
+	#field_submitX { // submit button at end of last row 
+		height: fit-content;
+		padding-top: 7px;
+	}
+}
